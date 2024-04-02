@@ -1,0 +1,27 @@
+{
+    "[dart]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "files.autoSave": "afterDelay",
+    "tabnine.experimentalAutoImports": true,
+    "liveshare.accessibility.voiceEnabled": false,
+    "dart.warnWhenEditingFilesInPubCache": false,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "git.openRepositoryInParentFolders": "never",
+    "redhat.telemetry.enabled": true,
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "java.compile.nullAnalysis.mode": "automatic"
+}
