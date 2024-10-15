@@ -100,4 +100,9 @@
     "editor.wordWrap": "on", // Enable word wrap
     "editor.wrappingIndent": "indent",
     "terminal.integrated.fontFamily": "monospace" // Indent wrapped lines
+
+
+
+
+
 }
