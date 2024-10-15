@@ -1,27 +1,103 @@
 {
+    // Flutter & Dart SDK path
+    "dart.flutterSdkPath": "C:\\src\\flutter", // Custom icon theme
+    "workbench.colorTheme": "One Monokai", // Custom color theme
+    "editor.fontLigatures": true, // Enable ligatures for cleaner code symbols
+    "editor.fontSize": 14, // Set the font size
+    "editor.lineHeight": 1.5, // Better line height for readability
+    // Editor & Navigation Preferences
+    "editor.stickyScroll.enabled": false, // Disable sticky scroll
+    "editor.renderWhitespace": "none", // Hide whitespace markers
+    "editor.minimap.enabled": false, // Disable minimap for focus
+    "editor.cursorSmoothCaretAnimation": "on", // Smoother cursor animation
+    "editor.smoothScrolling": true, // Enable smooth scrolling
+    "editor.tabCompletion": "onlySnippets", // Enable snippets over suggestions
+    "editor.suggestSelection": "first", // First suggestion selected by default
+    "editor.wordBasedSuggestions": "off", // Disable word-based suggestions
+    "editor.parameterHints.enabled": true, // Show function parameter hints
+    "editor.autoClosingBrackets": "always", // Always auto-close brackets
+    "editor.autoClosingQuotes": "always", // Always auto-close quotes
+
+    // Dart & Flutter Specific Settings
     "[dart]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll": "explicit"
+            "source.fixAll": "explicit" // Fix all issues on save
         },
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": "off"
+        "editor.formatOnSave": true, // Enable auto format on save
+        "editor.formatOnType": true, // Enable format on typing
+        "editor.rulers": [80], // Show a ruler at 80 characters for clean code
+        "editor.selectionHighlight": false, // Disable highlight on selection
+        "editor.suggest.snippetsPreventQuickSuggestions": false, // Show suggestions
+        "editor.tabCompletion": "onlySnippets" // Tab completion for snippets
     },
-    "files.autoSave": "afterDelay",
-    "tabnine.experimentalAutoImports": true,
-    "liveshare.accessibility.voiceEnabled": false,
-    "dart.warnWhenEditingFilesInPubCache": false,
-    "dart.warnWhenEditingFilesOutsideWorkspace": false,
-    "git.openRepositoryInParentFolders": "never",
-    "redhat.telemetry.enabled": true,
-    "dart.debugExternalPackageLibraries": true,
-    "dart.debugSdkLibraries": false,
-    "java.compile.nullAnalysis.mode": "automatic"
+    "dart.debugExternalPackageLibraries": false, // Disable stepping into external libraries
+    "dart.debugSdkLibraries": false, // Disable stepping into Dart SDK libraries
+    "dart.showTodos": true, // Highlight TODO comments
+
+    // Git & Version Control
+    "git.autofetch": true, // Automatically fetch Git changes
+    "git.confirmSync": false, // No need for confirmation when syncing
+    "gitlens.advanced.messages": {
+        "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true
+    },
+
+    // Copilot & Code Assistance
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false, // Disable in plaintext files
+        "markdown": false,  // Disable in markdown files
+        "scminput": false   // Disable in source control input
+    },
+    "github.copilot.advanced": {
+        "authProvider": "github" // Use GitHub authentication for Copilot
+    },
+
+    // Performance Enhancements
+    "files.autoSave": "afterDelay", // Auto-save files after a short delay
+    "explorer.confirmDelete": false, // Disable delete confirmation
+    "explorer.confirmDragAndDrop": false, // Disable drag-and-drop confirmation
+    "explorer.confirmPasteNative": false, // Disable paste confirmation in Explorer
+    "files.associations": {
+        "*.json": "jsonc" // Improve JSON parsing
+    },
+    "redhat.telemetry.enabled": false, // Disable telemetry for privacy
+    "workbench.editor.enablePreview": false, // Open files directly instead of preview mode
+    "editor.inlineSuggest.enabled": true, // Enable inline suggestions for faster coding
+
+    // Additional Plugins/Tools (optional but recommended)
+    "prettier.singleQuote": true, // Use single quotes in Prettier
+    "prettier.trailingComma": "es5", // Use trailing commas in ES5 objects
+    "prettier.printWidth": 80, // Set Prettier print width to 80
+    "tabnine.experimentalAutoImports": true, // Enable TabNine auto-imports
+
+    // Accessibility & UX
+    "liveshare.accessibility.voiceEnabled": false, // Disable voice accessibility
+    "breadcrumbs.enabled": true, // Enable breadcrumbs for file navigation
+    "search.quickOpen.includeSymbols": true, // Search for symbols in quick open
+    "editor.cursorBlinking": "smooth", // Enable smooth blinking cursor
+
+    // Additional Enhancements
+    "editor.codeLens": true, // Enable CodeLens for better code insights
+    "editor.formatOnPaste": true, // Format code on paste
+    "editor.guides.bracketPairs": true, // Highlight matching brackets
+    "editor.guides.indentation": true, // Show indentation guides
+    "editor.hover.enabled": true, // Show code action lightbulbs
+    "editor.linkedEditing": true, // Enable linked editing of HTML tags
+    "editor.matchBrackets": "always", // Always highlight matching brackets
+    "editor.occurrencesHighlight": "singleFile", // Highlight occurrences of the symbol under the cursor
+    "editor.overviewRulerBorder": false, // Disable overview ruler border
+    "editor.renderControlCharacters": false, // Render indent guides
+    "editor.renderLineHighlight": "all", // Highlight the current line
+    "editor.scrollBeyondLastLine": false, // Do not scroll beyond the last line
+    "editor.snippetSuggestions": "top", // Show snippet suggestions on top
+    "editor.suggestOnTriggerCharacters": true, // Trigger suggestions on specific characters
+    "editor.suggest.showIcons": true, // Show icons in suggestions
+    "editor.suggest.snippetsPreventQuickSuggestions": false, // Allow quick suggestions with snippets
+    "editor.suggestFontSize": 14, // Set font size for suggestions
+    "editor.suggestLineHeight": 20, // Set line height for suggestions
+    "editor.tabSize": 2, // Set tab size to 2 spaces
+    "editor.useTabStops": true, // Use tab stops for indentation
+    "editor.wordWrap": "on", // Enable word wrap
+    "editor.wrappingIndent": "indent",
+    "terminal.integrated.fontFamily": "monospace" // Indent wrapped lines
 }
